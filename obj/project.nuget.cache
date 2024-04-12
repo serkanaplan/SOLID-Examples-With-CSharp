@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OF1xgyzv8KodvrDF9y5MkspuXdgOUzjt63hnej5DIRRLl54wWy3DWzCpXzv7OVFddbrsBB9LCaSdPuVm41FhmQ==",
+  "dgSpecHash": "MNzYrIOtImeI5N7JNm76COSN06Xt49RAqNY65GNbPiS+adtnNKfOG7+KkSnQ1avRLoIbMUmbf3AZk818rrLzvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\serka\\Desktop\\SOLID\\SOLID.csproj",
+  "projectFilePath": "C:\\Users\\serka\\Desktop\\SOLID Examples With CSharp\\SOLID.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

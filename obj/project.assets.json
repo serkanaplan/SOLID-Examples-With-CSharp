@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\serka\\Desktop\\SOLID\\SOLID.csproj",
+      "projectUniqueName": "C:\\Users\\serka\\Desktop\\SOLID Examples With CSharp\\SOLID.csproj",
       "projectName": "SOLID",
-      "projectPath": "C:\\Users\\serka\\Desktop\\SOLID\\SOLID.csproj",
+      "projectPath": "C:\\Users\\serka\\Desktop\\SOLID Examples With CSharp\\SOLID.csproj",
       "packagesPath": "C:\\Users\\serka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\serka\\Desktop\\SOLID\\obj\\",
+      "outputPath": "C:\\Users\\serka\\Desktop\\SOLID Examples With CSharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\serka\\AppData\\Roaming\\NuGet\\NuGet.Config",
