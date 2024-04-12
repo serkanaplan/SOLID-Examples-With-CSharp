@@ -1,6 +1,9 @@
 // using SOLID.NotOCP;
 // using SOLID.OCPWithInterface;
+using SOLID.DIP;
 using SOLID.LSP;
+// using SOLID.NotDIP;
+
 // using SOLID.NotLSP;
 using SOLID.OCPWithDelegate; 
 
@@ -37,4 +40,12 @@ phone.Call();
 
 phone =new Nokia3310();
 phone.Call();
+
+//Not Dependency Inversion Principle
+// var productService = new ProductService(new ProductRepositoryFromSqlServer());//sadece ProductRepositoryFromSqlServer kabul eder. yani sıkı bir bağlılık var
+// productService.GetAll().ForEach(x => Console.WriteLine(x));
+
+//Dependency Inversion Principle
+var productService2 = new ProductService(new ProductRepositoryFromOracle());//IRepository arayüzü nü miras alan tüm sınıfları kabul eder. artık zayıf bağlı
+productService2.GetAll().ForEach(x => Console.WriteLine(x));
 
